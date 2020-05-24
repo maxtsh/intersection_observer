@@ -20,17 +20,18 @@ const targetElement = document.querySelector(".target");
 Whenever the target meets a threshold specified for the IntersectionObserver,
 the callback is invoked. The callback receives a list of IntersectionObserverEntry objects and the observer
 You can define this callback inside the IntersectionObserver() instance or out side like below
+
 function callback(enteries, observer) {
 enteries.forEach((entry) => {
-Each entry describes an intersection change for one observed
-target element:
-entry.boundingClientRect
-entry.intersectionRatio
-entry.intersectionRect
-entry.isIntersecting
-entry.rootBounds
-entry.target
-entry.time
+//Each entry describes an intersection change for one observed
+//target element:
+//entry.boundingClientRect
+//entry.intersectionRatio
+//entry.intersectionRect
+//entry.isIntersecting
+//entry.rootBounds
+//entry.target
+//entry.time
 
     if (entry.intersectionRatio > 0.5) {
       Do something with entry.target or ...
