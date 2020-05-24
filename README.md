@@ -1,5 +1,6 @@
 This is introduction tutorial for Browser Intersection Observer.
-I put different examples along with basic setup instruction according to MDN documents in different branches for you to follow.
+I put different examples along with basic setup instruction according to MDN documents for you to follow.
+You can contribute on this subject by adding more examples to this field.
 
 \*\*\* How to initialize Intersection Observer inside your application.
 
