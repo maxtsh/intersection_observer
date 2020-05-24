@@ -15,7 +15,8 @@ rootMargin: "0px",
     // roots margin
 
 threshold: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
-    //array of thresholds which are points that your element that is being observed is coming in or out of obervation area
+    //array of thresholds which are points that your element
+    //that is being observed is coming in or out of obervation area
 };
 
 ```
