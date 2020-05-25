@@ -39,11 +39,17 @@ body {
           align-items: center;
 }
 
-.wrapper-1 h1 {
-  font-size: 400%;
+.wrapper-1 #btn {
+  cursor: pointer;
+  font-size: 300%;
   font-weight: 700;
   margin-top: 5rem;
+  border: none;
+  outline: none;
   color: #fff;
+  padding: 0.5em;
+  border-radius: 0.5rem;
+  background-color: #27ae60;
 }
 
 .wrapper-2 {
